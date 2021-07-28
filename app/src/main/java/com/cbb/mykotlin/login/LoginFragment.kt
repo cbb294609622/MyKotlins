@@ -15,8 +15,6 @@ import com.cbb.mykotlin.databinding.FragmentLoginBinding
 class LoginFragment : Fragment() {
 
     private var viewModel: LoginViewModel? = null
-
-
     @SuppressLint("UseRequireInsteadOfGet")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
