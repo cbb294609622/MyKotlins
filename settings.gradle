@@ -2,3 +2,6 @@ rootProject.name = "MyKotlin"
 include ':app'
 include ':01_birthday'
 include ':02_dict'
+include ':03_lemonade'
+include ':04_class'
+include ':05_tiptime'
