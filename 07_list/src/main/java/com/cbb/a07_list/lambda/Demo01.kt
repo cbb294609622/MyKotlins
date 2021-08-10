@@ -21,7 +21,7 @@ fun main() {
     //根据对字符串进行排序
     println(peopleNames.sorted())
     //根据字符串长度进行排序
-    println(peopleNames.sortedWith{str1:String,str2:String -> str1.length - str2.length})
+//    println(peopleNames.sortedWith{str1:String,str2:String -> str1.length - str2.length})
 
 
     val words = listOf("about","acute","brief","balloon","Best","cat","dest","event","first",
