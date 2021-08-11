@@ -1,7 +1,5 @@
 # MyKotlins
     kotlin apps
-
-
 # 01_birthday
     上手APK
 # 02_dict
@@ -16,7 +14,27 @@
     注意：定义抽象类时，您无需使用 open 关键字。
         例如，无需使用 open 关键字标记 基类。系统已假设您需要子类化抽象类，以实现抽象属性和函数。 
 # 05_tiptime
-    布局 UI   click      
-# 用于利用kotlin进行项目练习
-    module:app 基础module，内含了room/lifecycle/paging/work/navigation
+    布局 UI   click
+# 06_affirmations
+    google实例
+# 07_list
+    google实例
+# 08_fragment
+    google实例，navigation的联系
+# 09_unscramble
+    google实例，viewBinding，LiveData
+    android{
+        ...
+        buildFeatures { viewBinding = true  }
+    }
+# 10_unscramble_dataBinding
+    google实例，dataBinding联系
+    plugins {
+        id 'kotlin-kapt'    //插件
+    }
+    android{
+        ...
+        buildFeatures { dataBinding = true  }
+    }
+    
     
