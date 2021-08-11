@@ -36,5 +36,12 @@
         ...
         buildFeatures { dataBinding = true  }
     }
+    LiveData 可存储数据。
+    LiveData 是一种可用于任何数据的封装容器。
+    LiveData 是可观察的，这意味着当 LiveData 对象存储的数据发生更改时，观察器会收到通知。
+    LiveData 具有生命周期感知能力。
+        当您将观察器附加到 LiveData 后，观察器就会与 LifecycleOwner（通常是 activity 或 fragment）相关联。
+        LiveData 仅更新处于活跃生命周期状态（例如 STARTED 或 RESUMED）的观察器。
+    
     
     
