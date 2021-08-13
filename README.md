@@ -42,6 +42,9 @@
     LiveData 具有生命周期感知能力。
         当您将观察器附加到 LiveData 后，观察器就会与 LifecycleOwner（通常是 activity 或 fragment）相关联。
         LiveData 仅更新处于活跃生命周期状态（例如 STARTED 或 RESUMED）的观察器。
-    
-    
-    
+# 11_cupcake
+    navigation的应用
+        返回
+        返回栈顶
+        公用的viewModel
+        布局中viewModel和Fragment的使用    
